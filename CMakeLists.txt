@@ -3,4 +3,4 @@ project(DAA_Assignment C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(DAA_Assignment main.c merge.h)
+add_executable(DAA_Assignment main.c merge.h quick.h)

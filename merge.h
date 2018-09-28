@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include<time.h>
 
-int size;
+
 
 void mergeSort(int [], int, int, int);
 
@@ -62,12 +62,4 @@ void mergeSort(int list[], int low, int mid, int high) {
     for (k = low; k <= high; k++) {
         list[k] = temp[k];
     }
-}
-
-void display(int list[]) {
-    printf("[");
-    for (int i = 0; i < size; i++) {
-        printf(" %d ", list[i]);
-    }
-    printf("]");
 }
